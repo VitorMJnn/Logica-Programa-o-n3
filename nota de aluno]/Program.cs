@@ -7,6 +7,6 @@ while (nota < 0 || nota > 10)
     Console.WriteLine("Nota inválida. Por favor, insira uma nota entre 0 e 10:");
     nota = Convert.ToDouble(Console.ReadLine());
 }
-Console.WriteLine($"Nota válida: {nota}");
+Console.WriteLine("Nota válida"  + " " + nota);
 
 

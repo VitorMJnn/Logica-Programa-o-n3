@@ -4,7 +4,7 @@ const int numeroDePessoas = 7;
 
 for (int i = 1; i <= numeroDePessoas; i++)
 {
-    Console.WriteLine($"\nDados da pessoa {i}:");
+    Console.WriteLine("\n Dados da pessoa" + i);
 
     Console.Write("Digite a idade: ");
     int idade = int.Parse(Console.ReadLine());
@@ -21,6 +21,6 @@ for (int i = 1; i <= numeroDePessoas; i++)
 
 double mediaIdades = (double)somaIdades / numeroDePessoas;
 
-Console.WriteLine($"\nQuantidade de pessoas com mais de 90 kg: {pessoasMaisDe90Kg}");
-Console.WriteLine($"Média das idades: {mediaIdades:F2}");
+Console.WriteLine("\nQuantidade de pessoas com mais de 90 kg:" + pessoasMaisDe90Kg );
+Console.WriteLine("Média das idades:" + mediaIdades  );
 
