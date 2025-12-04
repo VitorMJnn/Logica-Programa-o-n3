@@ -3,6 +3,7 @@
 //    Crie um programa que peça ao usuário uma temperatura em graus Celsius.
 //    Converta para Fahrenheit usando a fórmula: F = (Cx9 / 5) + 32
 //    Exiba o resultado.
+
 //Console.WriteLine("Digite a temperatura em graus Celsius:");
 //float celsius = Convert.ToSingle(Console.ReadLine());
 //float fahrenheit = (celsius * 9 / 5) + 32;
@@ -185,9 +186,9 @@
 //    int numero = Convert.ToInt32(Console.ReadLine());
 //    numeros.Add(numero);
 //}
-//int maior = numeros[0];
-//int menor = numeros[0];
-//for (int i = 1; i < numeros.Count; i++)
+//int maior = int.MinValue;
+//int menor = int.MaxValue;
+//for (int i = 0; i < numeros.Count; i++)
 //{
 //    if (numeros[i] > maior)
 //    {
@@ -198,6 +199,8 @@
 //        menor = numeros[i];
 //    }
 //}
+//Console.WriteLine($"O maior número digitado é: {maior}");
+//Console.WriteLine($"O menor número digitado é: {menor}");
 
 
 
@@ -207,26 +210,110 @@
 //    Calcule a média.
 //    Use if/else para informar se o aluno está aprovado (média ≥ 7) ou reprovado.
 
-List<double> notas = new List<double>();
-int totalDeNotas = 4;
-for (int i = 0; i < totalDeNotas; i++)
-{
-    Console.WriteLine($"Digite a nota {i + 1}:");
-    double nota = Convert.ToDouble(Console.ReadLine());
-    notas.Add(nota);
-}
-double soma = 0;
-for (int i = 0; i < totalDeNotas; i++)
-{
-    soma += notas[i];
-}
-double media = soma / totalDeNotas;
-Console.WriteLine($"A média das notas é: {media}");
-if (media >= 7)
-{
-    Console.WriteLine("Aluno aprovado.");
-}
-else
-{
-    Console.WriteLine("Aluno reprovado.");
-}
+//List<double> notas = new List<double>();
+//int totalDeNotas = 4;
+//for (int i = 0; i < totalDeNotas; i++)
+//{
+//    Console.WriteLine($"Digite a nota {i + 1}:");
+//    double nota = Convert.ToDouble(Console.ReadLine());
+//    notas.Add(nota);
+//}
+//double soma = 0;
+//for (int i = 0; i < totalDeNotas; i++)
+//{
+//    soma += notas[i];
+//}
+//double media = soma / totalDeNotas;
+//Console.WriteLine($"A média das notas é: {media}");
+//if (media >= 7)
+//{
+//    Console.WriteLine("Aluno aprovado.");
+//}
+//else
+//{
+//    Console.WriteLine("Aluno reprovado.");
+//}
+
+
+// palindrome
+// arara
+// kaiak
+// ovo
+
+//PALINDROMO
+
+// ARARA
+
+// KAIAK
+
+// OVO
+
+//Console.WriteLine("Insira uma palavra:  ");
+
+//string palavra = Console.ReadLine().ToLower();
+
+//string palavraInvertida = "";
+
+//for (int i = palavra.Length - 1; i >= 0; i--)
+
+//{
+
+//    palavraInvertida += palavra[i];
+
+//}
+
+//if (palavraInvertida == palavra)
+
+//{
+
+//    Console.WriteLine("Palindromo");
+
+//}
+
+//else
+
+//{
+
+//    Console.WriteLine("É só uma palavra mesmo.");
+
+//}
+
+//PALINDROMO
+
+// ARARA
+
+// KAIAK
+
+// OVO
+
+//Console.WriteLine("Insira uma palavra:  ");
+
+//string palavra = Console.ReadLine().ToLower();
+
+//string palavraInvertida = "";
+
+//for (int i = palavra.Length - 1; i >= 0; i--)
+
+//{
+
+//    palavraInvertida += palavra[i];
+
+//}
+
+//if (palavraInvertida == palavra)
+
+//{
+
+//    Console.WriteLine("Palindromo");
+
+//}
+
+//else
+
+//{
+
+//    Console.WriteLine("É só uma palavra mesmo.");
+
+//}
+
+
